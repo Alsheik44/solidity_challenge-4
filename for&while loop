@@ -1,0 +1,29 @@
+//SPDX-Lincense-identifier:MIT
+pragma solidity ^0.8.17;
+
+contract for&whileLoop{
+    function simpleLoop()external pure
+}
+uint number;
+for(uint i = 0; < 1000; i++){
+    number += 1;
+    if(i ==300){
+        continue;
+    }
+    if(i == 600){
+        break:
+    }
+}
+
+function hardLoop()external pure{
+    uint number;
+    for(uint i = 0; i < 100; i++){
+        if(number < 100){
+            number += 50;
+        }else if(nmber > 90)
+        number += 100
+
+    }
+}
+
+   
